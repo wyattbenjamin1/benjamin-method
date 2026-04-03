@@ -44,14 +44,20 @@ Power vs Tukey's HSD:
 ## When to Use This Method vs Tukey's HSD
 
 Use the Benjamin method when:
+
 - You have prior reason to believe extreme group means are most likely to differ
 - You want higher power for detecting large mean separations
 - Your design is balanced (equal group sizes)
+- You are exploring data where a few groups are expected to be outliers
+- Power is a priority and a slightly elevated FWER is acceptable 
 
 Use Tukey's HSD when:
+
 - You want a well-established, conservative procedure
 - Your design is unbalanced
 - You have no prior expectation about which groups differ
+- You need results that are easily interpretable to a broad audience
+- Strict FWER control at exactly 0.05 is required
 
 ## Limitations
 - Assumes balanced designs and normality
