@@ -1,0 +1,2 @@
+# benjamin-method
+My method!
