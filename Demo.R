@@ -1,7 +1,7 @@
 # Benjamin Method - Demo
 # Run this file to see the method in action
 
-source("benjamin_method.R")
+source("BenjaminMethod_final.R")
 
 # --- Oil Filter Example ---
 means <- c(14.5, 13.8, 13.3, 14.3, 13.1)
