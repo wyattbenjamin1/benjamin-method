@@ -21,7 +21,7 @@ Weights for each pair (i, j) are defined as:
 w_ij = |rank(μ_i) − rank(μ_j)|^γ  /  Σ |rank(μ_k) − rank(μ_l)|^γ
 ```
 
-where γ = 0.9 (selected via preliminary simulation).
+where γ = 0.9 (selected via preliminary, see bottom).
 
 At each step k of the step-down procedure, the adjusted alpha threshold is:
 
